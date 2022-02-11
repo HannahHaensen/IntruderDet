@@ -8,8 +8,8 @@ import numpy as np
 
 from datetime import datetime
 
-token = "5273142934:AAFWWEcNuRSHnLgKmlOB8Cr-XO5VkV2TpwI"
-chat_id = "326276163"
+token = "TOKEN"
+chat_id = "CHAT_ID"
 ENABLE = False
 save_dict = {
     'image': None,
