@@ -1,10 +1,8 @@
 import sys
 from pathlib import Path
-import io
 import depthai as dai
 import requests
 from PIL import Image
-import numpy as np
 
 from datetime import datetime
 
