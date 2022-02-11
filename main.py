@@ -85,8 +85,6 @@ with dai.Device(pipeline) as device:
     qRgb = device.getOutputQueue(name="rgb", maxSize=4, blocking=False)
     qDet = device.getOutputQueue(name="nn", maxSize=4, blocking=False)
 
-    # nn data (bounding box locations) are in <0..1> range - they need to be normalized with frame width/height
-
     while True:
         inRgb = qRgb.get()
         inDet = qDet.get()
