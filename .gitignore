@@ -115,6 +115,5 @@ dmypy.json
 
 depthai-python/*
 models/mobilenet-ssd_openvino_2021.2_6shave.blob
-main.py
 models/mobilenet-ssd/model.yml
 depthai-python/
