@@ -97,7 +97,7 @@ with dai.Device(pipeline) as device:
                     now = datetime.now()  # Now
                     duration_in_minutes = abs(now - save_dict['timestamp']).total_seconds() / 60.0
                     if duration_in_minutes > 1 and inRgb != None:
-                        print("dif")
+                        # print("dif")
 
                         image = Image.fromarray(inRgb.getCvFrame(), 'RGB')
                         image.save('temp.png', 'PNG')
