@@ -1,5 +1,12 @@
 # IntruderDet
- Intruder Detection
+
+IntruderDet combines OAK-D-Lite with a Telegram ChatBot. On OAK-D-Lite MobileNet-SSD is executed, when a person is detected the telegram bot sends an image ot the user.
+
+Please fill out the token and chat_id variable.
+```
+token = "TOKEN"
+chat_id = "CHAT_ID"
+```
 
 ## DepthAI
 
