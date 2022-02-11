@@ -26,9 +26,7 @@ def send_message(text):
    # Throw an exception if Telegram API fails
    resp.raise_for_status()
 
-
 send_message("Bot initalized")
-
 
 def send_photo(chat_id, file_opened):
    method = "sendPhoto"
